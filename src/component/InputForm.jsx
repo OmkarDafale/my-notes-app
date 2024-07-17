@@ -57,7 +57,7 @@ const Input = () => {
   return (
     <form
       onSubmit={submit}
-      className='inputForm-container'
+      className='inputForm-container container-width'
       onClick={() => setOpen(true)}
       style={{ backgroundColor: selectedColor }}
     >

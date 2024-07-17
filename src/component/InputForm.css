@@ -1,12 +1,12 @@
 .inputForm-container {
     display: flex;
+    width: 350px;
     flex-direction: column;
     gap: 16px;
     margin-top: 40px;
     padding: 16px;
     box-shadow: 5px 7px 9px 5px rgba(0, 0, 0, 0.2);
     border-radius: 8px;
-    width: 400px;
     transition-property: all;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     transition-duration: 500ms;
@@ -98,3 +98,9 @@
 .inputForm-options button:hover {
  color: #1f2937;   
 } 
+
+@media (min-width: 768px) {
+    .container-width {
+       width: 600px;
+    }
+}
