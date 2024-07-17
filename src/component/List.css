@@ -1,0 +1,24 @@
+.pin-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.pin-items {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.section-heading {
+    font-size: 12px;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.no-notes {
+    font-weight: bold;
+    font-size: 24px;
+    padding: 5px;
+}

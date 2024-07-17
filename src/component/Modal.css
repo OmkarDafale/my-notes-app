@@ -1,0 +1,84 @@
+.main-modal {
+    position: fixed;
+    inset: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 50;
+    background-color: #22222281;
+}
+
+.modal-container{
+    background-color: #ffffff;
+    padding: 32px;
+    max-width: 448px;
+    width: 100%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    border: 1px solid;
+    border-color: rgb(213, 220, 226);
+    transition: box-shadow 0.3s ease;
+}
+
+.modal-title {
+    font-size: 20px;
+    line-height: 1.75rem;
+    font-weight: 700;
+    margin-bottom: 16px
+}
+
+.modal-img-container {
+    position: relative;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.modal-img-container img {
+    border-radius: 8px;
+    width: 100%;
+}
+
+.modal-img-container div {
+    position: absolute;
+    right: 0px;
+    bottom: 10px;
+    background-color: #222222;
+    color: #ffffff;
+    font-size: 24px;
+    line-height: 32px;
+    border-radius: 9999px;
+    padding:8px;
+}
+
+.modal-input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    border-radius:4px;
+    background-color: transparent;
+}
+
+
+.modal-btn-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.modal-options {
+    display: flex;
+    gap: 4px;
+}
+ 
+.btn {
+    border-radius:4px;
+    padding: 8px 16px;
+    color: #ffffff;
+}
+
+.cancel {
+    background-color: #ef4444 ;
+}
+.save{
+    background-color: #3b82f6  
+}
+

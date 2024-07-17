@@ -1,0 +1,51 @@
+.option-container {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.option-color {
+    position: relative;
+}
+
+.option-color-icon {
+    cursor: pointer;
+    color: #9CA3AF;
+}
+
+.option-color-icon:hover {
+    color: #1f2937;
+}
+
+.option-color-palette {
+    position: absolute;
+    display: flex;
+    gap: 4px;
+    margin-top: 4px;
+    padding: 8px;
+    border-radius: 4px;
+    z-index: 10;
+    background-color: #ffffff;
+    box-shadow: 7px 7px 4px rgba(0, 0, 0, 0.2);
+    border-color: rgb(213, 220, 226);
+}
+
+.option-color-palette>div {
+    width: 24px;
+    height: 24px;
+    border-radius: 9999px;
+    cursor: pointer;
+    border-width: 2px;
+}
+.option-color-palette>div:hover {
+ color: #9ca3af; 
+}
+
+.option-Image {
+    cursor: pointer;
+    color: #9CA3AF;
+}
+
+.option-Image:hover {
+    color: #1f2937;
+}
